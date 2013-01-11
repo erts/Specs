@@ -44,7 +44,7 @@ Pod::Spec.new do |s|
    utilities.source_files =  'Utilities/**/*.{h,m}'
    utilities.dependency 'XMPPFramework/Core'
   end
-  
+
   s.subspec 'KissXML' do |kissxml|
    kissxml.source_files = 'Vendor/KissXML/**/*.{h,m}'
    kissxml.dependency 'XMPPFramework/Core'
@@ -71,5 +71,95 @@ Pod::Spec.new do |s|
     rc.framework = 'SystemConfiguration'
     rc.dependency 'XMPPFramework/Core'
   end
-  
+
+  s.subspec 'Roseter' do |rs|
+    rs.source_files = 'Extensions/Roster/**/*.{h,m}'
+    rs.dependency 'XMPPFramework/Core'
+  end
+
+  s.subspec 'XEP0009' do |xep0009|
+    xep0009.source_files = 'Extensions/XEP-0009/**/*.{h,m}'
+    xep0009.dependency 'XMPPFramework/Core'
+  end
+
+  s.subspec 'XEP0016' do |xep0016|
+    xep0016.source_files = 'Extensions/XEP-0016/**/*.{h,m}'
+    xep0016.dependency 'XMPPFramework/Core'
+  end
+
+  s.subspec 'XEP0045' do |xep0045|
+    xep0045.source_files = 'Extensions/XEP-0045/**/*.{h,m}'
+    xep0045.dependency 'XMPPFramework/Core'
+  end
+
+  s.subspec 'XEP0054' do |xep0054|
+    xep0054.source_files = 'Extensions/XEP-0054/**/*.{h,m}'
+    xep0054.dependency 'XMPPFramework/Core'
+  end
+
+  s.subspec 'XEP0060' do |xep0060|
+    xep0060.source_files = 'Extensions/XEP-0060/**/*.{h,m}'
+    xep0060.dependency 'XMPPFramework/Core'
+  end
+
+  s.subspec 'XEP0065' do |xep0065|
+    xep0065.source_files = 'Extensions/XEP-0065/**/*.{h,m}'
+    xep0065.dependency 'XMPPFramework/Core'
+  end
+
+  s.subspec 'XEP0082' do |xep0082|
+    xep0082.source_files = 'Extensions/XEP-0082/**/*.{h,m}'
+    xep0082.dependency 'XMPPFramework/Core'
+  end
+
+  s.subspec 'XEP0085' do |xep0085|
+    xep0085.source_files = 'Extensions/XEP-0085/**/*.{h,m}'
+    xep0085.dependency 'XMPPFramework/Core'
+  end
+
+  s.subspec 'XEP0100' do |xep0100|
+    xep0100.source_files = 'Extensions/XEP-0100/**/*.{h,m}'
+    xep0100.dependency 'XMPPFramework/Core'
+  end
+
+  s.subspec 'XEP0115' do |xep0115|
+    xep0115.source_files = 'Extensions/XEP-0115/**/*.{h,m}'
+    xep0115.dependency 'XMPPFramework/Core'
+  end
+
+  s.subspec 'XEP0136' do |xep0136|
+    xep0136.source_files = 'Extensions/XEP-0136/**/*.{h,m}'
+    xep0136.dependency 'XMPPFramework/Core'
+  end
+
+  s.subspec 'XEP0153' do |xep0153|
+    xep0153.source_files = 'Extensions/XEP-0153/**/*.{h,m}'
+    xep0153.dependency 'XMPPFramework/Core'
+  end
+
+  s.subspec 'XEP0184' do |xep0184|
+    xep0184.source_files = 'Extensions/XEP-0184/**/*.{h,m}'
+    xep0184.dependency 'XMPPFramework/Core'
+  end
+
+  s.subspec 'XEP0199' do |xep0199|
+    xep0199.source_files = 'Extensions/XEP-0199/**/*.{h,m}'
+    xep0199.dependency 'XMPPFramework/Core'
+  end
+
+  s.subspec 'XEP0202' do |xep0202|
+    xep0202.source_files = 'Extensions/XEP-0202/**/*.{h,m}'
+    xep0202.dependency 'XMPPFramework/Core'
+  end
+
+  s.subspec 'XEP0203' do |xep0203|
+    xep0203.source_files = 'Extensions/XEP-0203/**/*.{h,m}'
+    xep0203.dependency 'XMPPFramework/Core'
+  end
+
+  s.subspec 'XEP0224' do |xep0224|
+    xep0224.source_files = 'Extensions/XEP-0224/**/*.{h,m}'
+    xep0224.dependency 'XMPPFramework/Core'
+  end
+
 end
